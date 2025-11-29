@@ -1,0 +1,2026 @@
+INFO   - main args=engauge 1000007062.jpg
+INFO   - MainWindow::MainWindow curDir=/home/sgmil/Programs/Analyze Data/Targets
+INFO   - MainWindow::setCurrentFile
+INFO   - MainWindow::updateWindowTitle
+INFO   - CreateFacade::create
+INFO   - CreateIcons::create
+INFO   - CreateCentralWidget::create
+INFO   - CreateActions::create
+INFO   - CreateActions::createFile
+INFO   - CreateActions::createEdit
+INFO   - CreateActions::createDigitize
+INFO   - CreateActions::createView
+INFO   - CreateActions::createSettings
+INFO   - CreateActions::createHelp
+INFO   - CreateStatusBar::create
+INFO   - CreateMenus::create
+INFO   - MainWindow::updateRecentFileList
+INFO   - CreateToolBars::create
+INFO   - CreateDockableWidgets::create
+INFO   - FittingWindow::resizeTable
+INFO   - GeometryWindow::loadStrategies
+INFO   - GeometryWindow::initializeHeader
+INFO   - GeometryWindow::resizeTable
+INFO   - CreateHelpWindow::create
+INFO   - HelpBrowser::loadResource scheme=qthelp
+INFO   - CreateTutorial::create
+INFO   - TutorialDlg::createSceneAndView
+INFO   - TutorialStateContext::createStates
+INFO   - TutorialStateChecklistWizardLines::TutorialStateChecklistWizardLines
+INFO   - TutorialStateChecklistWizardPoints::TutorialStateChecklistWizardPoints
+INFO   - TutorialStateColorFilter::TutorialStateColorFilter
+INFO   - TutorialStateCurveSelection::TutorialStateCurveSelection
+INFO   - TutorialStateCurveType::TutorialStateCurveType
+INFO   - TutorialStateIntroduction::TutorialStateIntroduction
+INFO   - TutorialStatePointMatch::TutorialStatePointMatch
+INFO   - TutorialStateSegmentFill::TutorialStateSegmentFill
+INFO   - TutorialStateContext::requestImmediateStateTransition
+INFO   - TutorialStateIntroduction::begin ()
+INFO   - TutorialStateContext::createTimer
+INFO   - CreateScene::create
+INFO   - CreateNetwork::create
+INFO   - CreateLoadImage::create
+INFO   - CreateStateContexts::create
+INFO   - BackgroundStateContext::BackgroundStateContext
+INFO   - BackgroundStateContext::requestStateTransition
+INFO   - BackgroundStateContext::completeRequestedStateTransitionIfExists
+INFO   - BackgroundStateUnloaded::begin
+INFO   - DigitizeStateEmpty::begin
+INFO   - ViewPointStyle::unsetPointStyle
+INFO   - MainWindow::updateDigitizeStateIfSoftwareTriggered
+INFO   - CreateSettingsDialogs::create
+INFO   - DlgSettingsAbstractBase::DlgSettingsAbstractBase name=DlgSettingsCoords
+INFO   - DlgSettingsCoords::DlgSettingsCoords
+INFO   - DlgSettingsCoords::createSubPanel
+INFO   - DlgSettingsCoords::createGroupCoordsType
+INFO   - DlgSettingsCoords::createGroupXTheta
+INFO   - DlgSettingsCoords::createGroupYRadius
+INFO   - DlgSettingsCoords::createDateTime
+INFO   - DlgSettingsCoords::createPreview
+INFO   - DlgSettingsAbstractBase::DlgSettingsAbstractBase name=DlgSettingsCurveList
+INFO   - DlgSettingsCurveList::DlgSettingsCurveList
+INFO   - DlgSettingsCurveList::createSubPanel
+INFO   - DlgSettingsCurveList::createListCurves
+INFO   - DlgSettingsCurveList::createButtons
+INFO   - DlgSettingsCurveList::createOptionalSaveDefault
+INFO   - DlgSettingsAbstractBase::DlgSettingsAbstractBase name=DlgSettingsCurveProperties
+INFO   - DlgSettingsCurveProperties::DlgSettingsCurveProperties
+INFO   - DlgSettingsCurveProperties::createSubPanel
+INFO   - DlgSettingsCurveProperties::createCurveName
+INFO   - DlgSettingsCurveProperties::createPoint
+INFO   - DlgSettingsCurveProperties::createLine
+INFO   - DlgSettingsCurveProperties::createPreview
+INFO   - DlgSettingsCurveProperties::createOptionalSaveDefault
+INFO   - DlgSettingsAbstractBase::DlgSettingsAbstractBase name=DlgSettingsDigitizeCurve
+INFO   - DlgSettingsDigitizeCurve::DlgSettingsDigitizeCurve
+INFO   - DlgSettingsDigitizeCurve::createSubPanel
+INFO   - DlgSettingsDigitizeCurve::createControls
+INFO   - DlgSettingsDigitizeCurve::createPreview
+INFO   - DlgSettingsAbstractBase::DlgSettingsAbstractBase name=DlgSettingsExportFormat
+INFO   - DlgSettingsExportFormat::DlgSettingsExportFormat
+INFO   - DlgSettingsExportFormat::createSubPanel
+INFO   - DlgSettingsExportFormat::createCurveSelection
+INFO   - DlgSettingsExportFormat::createTabWidget
+INFO   - DlgSettingsExportFormat::createFunctionsPointsSelection
+INFO   - DlgSettingsExportFormat::createRelationsPointsSelection
+INFO   - DlgSettingsExportFormat::createDelimiters
+INFO   - DlgSettingsExportFormat::createHeader
+INFO   - DlgSettingsExportFormat::createXLabel
+INFO   - DlgSettingsExportFormat::createFileLayout
+INFO   - DlgSettingsExportFormat::createPreview
+INFO   - DlgSettingsExportFormat::createOptionalSaveDefault
+INFO   - DlgSettingsAbstractBase::DlgSettingsAbstractBase name=DlgSettingsColorFilter
+INFO   - DlgSettingsColorFilter::DlgSettingsColorFilter
+INFO   - DlgSettingsColorFilter::createSubPanel
+INFO   - DlgSettingsColorFilter::createControls
+INFO   - DlgSettingsColorFilter::createProfileAndScale
+INFO   - DlgSettingsColorFilter::createPreview
+INFO   - DlgSettingsAbstractBase::DlgSettingsAbstractBase name=DlgSettingsAxesChecker
+INFO   - DlgSettingsAxesChecker::DlgSettingsAxesChecker
+INFO   - DlgSettingsAxesChecker::createSubPanel
+INFO   - DlgSettingsAxesChecker::createControls
+INFO   - DlgSettingsAxesChecker::createPreview
+INFO   - DlgSettingsAxesChecker::createPoints
+INFO   - DlgSettingsAbstractBase::DlgSettingsAbstractBase name=DlgSettingsGridDisplay
+INFO   - DlgSettingsGridDisplay::DlgSettingsGridDisplay
+INFO   - DlgSettingsGridDisplay::createSubPanel
+INFO   - DlgSettingsGridDisplay::createDisplayGridLinesX
+INFO   - DlgSettingsGridDisplay::createDisplayGridLinesY
+INFO   - DlgSettingsGridDisplay::createDisplayCommon
+INFO   - DlgSettingsGridDisplay::createPreview
+INFO   - DlgSettingsAbstractBase::DlgSettingsAbstractBase name=DlgSettingsGridRemoval
+INFO   - DlgSettingsGridRemoval::DlgSettingsGridRemoval
+INFO   - DlgSettingsGridRemoval::createSubPanel
+INFO   - DlgSettingsGridRemoval::createRemoveGridLines
+INFO   - DlgSettingsGridRemoval::createRemoveGridLinesX
+INFO   - DlgSettingsGridRemoval::createRemoveGridLinesY
+INFO   - DlgSettingsGridRemoval::createPreview
+INFO   - DlgSettingsAbstractBase::DlgSettingsAbstractBase name=DlgSettingsPointMatch
+INFO   - DlgSettingsPointMatch::DlgSettingsPointMatch
+INFO   - DlgSettingsPointMatch::createSubPanel
+INFO   - DlgSettingsPointMatch::createControls
+INFO   - DlgSettingsPointMatch::createPreview
+INFO   - DlgSettingsPointMatch::createTemplate
+INFO   - DlgSettingsAbstractBase::DlgSettingsAbstractBase name=DlgSettingsSegments
+INFO   - DlgSettingsSegments::DlgSettingsSegments
+INFO   - DlgSettingsSegments::createSubPanel
+INFO   - DlgSettingsSegments::createControls
+INFO   - DlgSettingsSegments::createPreview
+INFO   - DlgSettingsSegments::createPreviewImage
+INFO   - DlgSettingsAbstractBase::DlgSettingsAbstractBase name=DlgSettingsGeneral
+INFO   - DlgSettingsGeneral::DlgSettingsGeneral
+INFO   - DlgSettingsGeneral::createSubPanel
+INFO   - DlgSettingsGeneral::createControls
+INFO   - DlgSettingsGeneral::createOptionalSaveDefault
+INFO   - DlgSettingsAbstractBase::DlgSettingsAbstractBase name=DlgSettingsMainWindow
+INFO   - DlgSettingsMainWindow::DlgSettingsMainWindow
+INFO   - DlgSettingsMainWindow::createSubPanel
+INFO   - DlgSettingsMainWindow::createControls
+INFO   - DlgSettingsMainWindow::createOptionalSaveDefault
+INFO   - CreateCommandStackShadow::create
+INFO   - CmdStackShadow::CmdStackShadow
+INFO   - CreateZoomMaps::create
+INFO   - MainWindow::updateControls selectedItems=0
+INFO   - MainWindow::slotViewToolBarChecklistGuide
+INFO   - MainWindow::slotCmbBackground
+INFO   - BackgroundStateContext::setBackgroundImage background=Original
+INFO   - BackgroundStateContext::requestStateTransition
+INFO   - BackgroundStateContext::completeRequestedStateTransitionIfExists
+INFO   - BackgroundStateUnloaded::end
+INFO   - BackgroundStateOriginal::begin
+INFO   - MainWindow::slotViewZoom
+INFO   - MainWindow::slotViewZoomFactor
+INFO   - StatusBar::slotZoom zoom=16
+INFO   - MainWindow::slotViewZoom
+INFO   - MainWindow::slotViewZoomFactor
+INFO   - StatusBar::slotZoom zoom=16
+INFO   - MainWindow::updateSettingsMainWindow
+INFO   - MainWindow::updateWindowTitle
+INFO   - MainWindow::updateFittingWindow
+INFO   - MainWindow::updateGeometryWindow
+INFO   - MainWindow::setCurrentFile
+INFO   - MainWindow::updateWindowTitle
+INFO   - MainWindow::showEvent files=/home/sgmil/Programs/Analyze Data/Targets/1000007062.jpg
+INFO   - MainWindow::slotLoadStartupFiles
+INFO   - LoadFileInfo::loadsAsDigFile
+INFO   - CoordSystemContext::CoordSystemContext
+INFO   - Document::Document fileName=/home/sgmil/Programs/Analyze Data/Targets/1000007062.jpg
+INFO   - Document::bytesIndicatePreVersion6
+INFO   - Document::versionFromFile
+INFO   - Document::loadVersion6
+INFO   - CoordSystemContext::addCoordSystems numberToAdd=1
+INFO   - CoordSystem::CoordSystem
+INFO   - CoordSystemContext::~CoordSystemContext
+INFO   - MainWindow::fileImport fileName=/home/sgmil/Programs/Analyze Data/Targets/1000007062.jpg curDir=/home/sgmil/Programs/Analyze Data/Targets importType=0
+INFO   - Jpeg2000::load filename=/home/sgmil/Programs/Analyze Data/Targets/1000007062.jpg
+ERROR  - Jpeg2000::load encountered error creating decoding stream
+INFO   - MainWindow::loadImage fileName=/home/sgmil/Programs/Analyze Data/Targets/1000007062.jpg importType=0
+INFO   - MainWindow::loadImageNewDocument fileName=/home/sgmil/Programs/Analyze Data/Targets/1000007062.jpg importType=0
+INFO   - CoordSystemContext::CoordSystemContext
+INFO   - Document::Document image=1371x1530
+INFO   - CoordSystemContext::addCoordSystems numberToAdd=1
+INFO   - CoordSystem::CoordSystem
+INFO   - CmdMediator::CmdMediator image=1371x1530
+INFO   - MainWindow::setupAfterLoadNewDocument file=/home/sgmil/Programs/Analyze Data/Targets/1000007062.jpg message=File imported importType=0
+INFO   - DigitizeStateContext::resetOnLoad
+INFO   - DocumentModelColorFilter::DocumentModelColorFilter
+INFO   - BackgroundStateContext::setCurveSelected curve=
+INFO   - BackgroundStateCurve::setCurveSelected curve=
+INFO   - BackgroundStateCurve::processImageFromSavedInputs
+INFO   - BackgroundStateAbstractBase::setProcessedPixmap map=(0x0)
+INFO   - BackgroundStateNone::setCurveSelected
+INFO   - BackgroundStateOriginal::setCurveSelected
+INFO   - BackgroundStateUnloaded::setCurveSelected
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - MainWindow::setPixmap
+INFO   - DigitizeStateContext::setImageIsLoaded
+INFO   - DigitizeStateContext::setCursor
+INFO   - DocumentModelColorFilter::DocumentModelColorFilter
+INFO   - BackgroundStateContext::setPixmap image=1371x1530 currentState=BackgroundStateOriginal
+INFO   - BackgroundStateCurve::setPixmap
+INFO   - BackgroundStateCurve::processImageFromSavedInputs
+INFO   - DocumentModelColorFilter::high curve=Curve1 curves=Axes,Curve1
+INFO   - DocumentModelColorFilter::low curve=Curve1 curves=Axes,Curve1
+INFO   - GridRemoval::remove transformationIsDefined=false removeDefinedGridLines=false
+INFO   - BackgroundStateAbstractBase::setProcessedPixmap map=(1371x1530)
+INFO   - BackgroundStateNone::setPixmap
+INFO   - BackgroundStateAbstractBase::setProcessedPixmap map=(1371x1530)
+INFO   - BackgroundStateOriginal::setPixmap
+INFO   - BackgroundStateAbstractBase::setProcessedPixmap map=(1371x1530)
+INFO   - BackgroundStateUnloaded::setPixmap
+INFO   - Transformation::resetOnLoad
+INFO   - TransformationStateContext::resetOnLoad
+INFO   - GraphicsLinesForCurves::resetOnLoad
+INFO   - GraphicsScene::resetOnLoad itemsBefore=4 itemsAfter=4
+INFO   - MainWindow::loadCurveListFromCmdMediator
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - MainWindow::loadCoordSystemListFromCmdMediator
+INFO   - Document::coordSystemCount
+INFO   - MainWindow::updateViewsOfSettings
+INFO   - ViewPointStyle::unsetPointStyle
+INFO   - DocumentModelColorFilter::DocumentModelColorFilter
+INFO   - BackgroundStateContext::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::processImageFromSavedInputs
+INFO   - DocumentModelColorFilter::high curve=Curve1 curves=Axes,Curve1
+INFO   - DocumentModelColorFilter::low curve=Curve1 curves=Axes,Curve1
+INFO   - GridRemoval::remove transformationIsDefined=false removeDefinedGridLines=false
+INFO   - BackgroundStateAbstractBase::setProcessedPixmap map=(1371x1530)
+INFO   - BackgroundStateNone::setCurveSelected
+INFO   - BackgroundStateOriginal::setCurveSelected
+INFO   - BackgroundStateUnloaded::setCurveSelected
+INFO   - BackgroundStateContext::setBackgroundImage background=Original
+INFO   - BackgroundStateContext::requestStateTransition
+INFO   - BackgroundStateContext::completeRequestedStateTransitionIfExists
+INFO   - MainWindow::slotViewZoom
+INFO   - MainWindow::slotViewZoomFactor
+INFO   - StatusBar::slotZoom zoom=16
+INFO   - MainWindow::setCurrentFile
+INFO   - MainWindow::updateWindowTitle
+INFO   - MainWindow::saveStartingDocumentSnapshot
+INFO   - CoordSystemContext::saveXml
+INFO   - DocumentModelGeneral::saveXml
+INFO   - DocumentModelCoords::saveXml
+INFO   - DocumentModelDigitizeCurve::saveXml
+INFO   - DocumentModelExportFormat::saveXml
+INFO   - DocumentModelAxesChecker::saveXml
+INFO   - DocumentModelGridDisplay::saveXml
+INFO   - DocumentModelGridRemoval::saveXml
+INFO   - DocumentModelPointMatch::saveXml
+INFO   - DocumentModelSegments::saveXml
+INFO   - Curve::saveXml
+INFO   - ColorFilterSettings::saveXml
+INFO   - CurveStyle::saveXml
+INFO   - LineStyle::saveXml
+INFO   - PointStyle::saveXml
+INFO   - CurvesGraphs::saveXml
+INFO   - Curve::saveXml
+INFO   - ColorFilterSettings::saveXml
+INFO   - CurveStyle::saveXml
+INFO   - LineStyle::saveXml
+INFO   - PointStyle::saveXml
+INFO   - MainWindow::updateAfterCommand
+INFO   - MainWindow::updateAfterCommandStatusBarCoords
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - DocumentModelColorFilter::DocumentModelColorFilter
+INFO   - BackgroundStateContext::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::processImageFromSavedInputs
+INFO   - DocumentModelColorFilter::high curve=Curve1 curves=Axes,Curve1
+INFO   - DocumentModelColorFilter::low curve=Curve1 curves=Axes,Curve1
+INFO   - GridRemoval::remove transformationIsDefined=false removeDefinedGridLines=false
+INFO   - BackgroundStateAbstractBase::setProcessedPixmap map=(1371x1530)
+INFO   - BackgroundStateNone::setCurveSelected
+INFO   - BackgroundStateOriginal::setCurveSelected
+INFO   - BackgroundStateUnloaded::setCurveSelected
+INFO   - MainWindow::updateGridLines
+INFO   - GraphicsScene::updateAfterCommand
+INFO   - GraphicsLinesForCurves::updateHighlightOpacity highlightOpacity=0.35
+INFO   - GraphicsScene::updateCurves
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - GraphicsLinesForCurves::addRemoveCurves curveCount=0
+INFO   - GraphicsScene::updatePointMembership
+INFO   - GraphicsLinesForCurves::lineMembershipReset
+INFO   - GraphicsLinesForCurve::lineMembershipReset curve=Axes
+INFO   - GraphicsLinesForCurve::lineMembershipReset curve=Curve1
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - GraphicsLinesForCurves::lineMembershipPurge
+INFO   - GraphicsLinesForCurve::lineMembershipPurge curve=Axes
+INFO   - GraphicsLinesForCurve::updateGraphicsLinesToMatchGraphicsPoints numberPoints=0 ordinalRenumbering=false
+INFO   - GraphicsLinesForCurve::lineMembershipPurge curve=Curve1
+INFO   - GraphicsLinesForCurve::updateGraphicsLinesToMatchGraphicsPoints numberPoints=0 ordinalRenumbering=false
+INFO   - GraphicsLinesForCurve::drawLinesStraight curve=Curve1
+INFO   - DigitizeStateEmpty::updateAfterPointAddition
+INFO   - MainWindow::updateControls selectedItems=0
+INFO   - CmdStackShadow::canRedo
+INFO   - MainWindow::updateChecklistGuide
+INFO   - ChecklistGuide::update
+INFO   - ChecklistGuideBrowser::update
+INFO   - ChecklistGuideBrowser::repopulateCheckedTags
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - ChecklistGuideBrowser::refresh
+INFO   - ChecklistGuideBrowser::processAhrefs
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::processCheckboxes
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::processDivs
+INFO   - ChecklistGuideBrowser::divShow anchor=
+INFO   - ChecklistGuideBrowser::divHide anchor=BACKGROUND
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS1
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS2
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS3
+INFO   - ChecklistGuideBrowser::divHide anchor=EXPORT
+INFO   - MainWindow::updateFittingWindow
+INFO   - FittingWindow::update
+INFO   - FittingWindow::resizeTable
+INFO   - MainWindow::slotFittingWindowCurveFit order=9
+INFO   - MainWindow::updateGeometryWindow
+INFO   - GeometryWindow::update
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - GeometryWindow::resizeTable
+INFO   - CoordSystemContext::printStream
+INFO   - DocumentScrub::DocumentScrub
+INFO   - DocumentScrub::check
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - Document::coordSystemCount
+INFO   - ChecklistGuidePageIntro::ChecklistGuidePageIntro
+INFO   - ChecklistGuidePage::addHtml
+INFO   - ChecklistGuideWizard::pageCurvesTitle
+INFO   - ChecklistGuidePageCurves::ChecklistGuidePageCurves
+INFO   - ChecklistGuidePage::addHtml
+INFO   - ChecklistGuidePage::addLineEdit
+INFO   - ChecklistGuidePage::addLineEdit
+INFO   - ChecklistGuidePage::addLineEdit
+INFO   - ChecklistGuidePage::addLineEdit
+INFO   - ChecklistGuidePage::addLineEdit
+INFO   - ChecklistGuidePage::addLineEdit
+INFO   - ChecklistGuidePage::addHtml
+INFO   - ChecklistGuidePage::addHtml
+INFO   - ChecklistGuidePage::addLabelAndRadioButton
+INFO   - ChecklistGuidePage::addLabelAndRadioButton
+INFO   - ChecklistGuidePageConclusion::ChecklistGuidePageConclusion
+INFO   - ChecklistGuidePage::addHtml
+INFO   - MainWindow::slotDigitizeAxis
+INFO   - DigitizeStateEmpty::end
+INFO   - DigitizeStateAxis::begin
+INFO   - ViewPointStyle::setPointStyle
+INFO   - ViewPointStyle::pixmapForCurrentSettings
+INFO   - DocumentModelColorFilter::DocumentModelColorFilter
+INFO   - ViewSegmentFilter::setColorFilterSettings
+INFO   - MainWindow::updateDigitizeStateIfSoftwareTriggered
+INFO   - MainWindow::slotDigitizeAxis
+INFO   - ViewPointStyle::setEnabled enabled=true
+INFO   - ViewPointStyle::pixmapForCurrentSettings
+INFO   - ViewSegmentFilter::setEnabled enabled=true
+INFO   - MainWindow::updateControls selectedItems=0
+INFO   - CmdStackShadow::canRedo
+INFO   - ViewPointStyle::setEnabled enabled=true
+INFO   - ViewPointStyle::pixmapForCurrentSettings
+INFO   - ViewSegmentFilter::setEnabled enabled=true
+INFO   - MainWindow::updateControls selectedItems=0
+INFO   - CmdStackShadow::canRedo
+INFO   - MainWindow::updateControls selectedItems=0
+INFO   - CmdStackShadow::canRedo
+INFO   - Document::coordSystemCount
+INFO   - MainWindow::slotDigitizeAxis
+INFO   - ViewPointStyle::setEnabled enabled=true
+INFO   - ViewPointStyle::pixmapForCurrentSettings
+INFO   - ViewSegmentFilter::setEnabled enabled=true
+INFO   - MainWindow::updateControls selectedItems=0
+INFO   - CmdStackShadow::canRedo
+INFO   - MainWindow::slotMousePress
+INFO   - GraphicsScene::resetPositionHasChangedFlags
+INFO   - DigitizeStateAxis::handleMousePress
+INFO   - MainWindow::slotMouseRelease
+INFO   - DigitizeStateAxis::handleMouseRelease
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - GraphicsScene::createPoint identifier=Axes	0
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsScene::addTemporaryPoint identifer=Axes	0
+INFO   - GraphicsLinesForCurves::addPoint curve=Axes identifier=Axes	0 ordinal=-1 pos=(710.595, 675.318)
+INFO   - GraphicsLinesForCurve::addPoint curve=Axes identifier=Axes	0 ordinal=-1 pos=(710.595, 675.318) newPointCount=1
+INFO   - DlgEditPointAxis::DlgEditPointAxis
+INFO   - DlgValidatorFactory::DlgValidatorFactory
+INFO   - DlgValidatorFactory::createCartesianOrPolarWithPolarPolar
+INFO   - DlgValidatorFactory::createWithNonPolar
+INFO   - DlgValidatorAbstract::DlgValidatorAbstract
+INFO   - DlgValidatorNumber::DlgValidatorNumber
+INFO   - DlgValidatorFactory::createCartesianOrPolarWithNonPolarPolar
+INFO   - DlgValidatorFactory::createWithNonPolar
+INFO   - DlgValidatorAbstract::DlgValidatorAbstract
+INFO   - DlgValidatorNumber::DlgValidatorNumber
+INFO   - DlgEditPointAxis::initializeGraphCoordinates
+INFO   - DlgEditPointAxis::~DlgEditPointAxis
+INFO   - GraphicsScene::removePoint identifier=Axes	0
+INFO   - GraphicsLinesForCurves::removePoint point=Axes	0 curveCount=2
+INFO   - GraphicsLinesForCurve::identifierToOrdinal identifier=Axes	0
+INFO   - GraphicsLinesForCurve::removePoint point=-1 pointCount=1
+INFO   - Document::nextOrdinalForCurve
+INFO   - CoordSystemContext::nextOrdinalForCurve
+INFO   - CallbackNextOrdinal::nextOrdinal ordinal=1
+INFO   - Document::checkAddPointAxis
+INFO   - CoordSystemContext::checkAddPointAxis
+INFO   - CoordSystem::checkAddPointAxis posScreen=(710.595, 675.318) posGraph=(0, 0)
+INFO   - Point::uniqueIdentifierGenerator curveName=Axes identifierIndex=0
+INFO   - CmdAbstract::CmdAbstract
+INFO   - CmdPointChangeBase::CmdPointChangeBase
+INFO   - CmdAddPointAxis::CmdAddPointAxis posScreen=(710.595, 675.318) posGraph=(0, 0) ordinal=1
+INFO   - DigitizeStateContext::appendNewCmd
+INFO   - CmdAbstract::redo
+INFO   - Point::identifierIndex identifierIndex=1
+INFO   - CmdAddPointAxis::cmdRedo
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - DocumentHashGenerator::generator result=ÔŒÙ
+INFO   - CmdAbstract::saveOrCheckPreCommandDocumentStateHash stateHash=ÔŒÙ
+INFO   - CmdPointChangeBase::saveDocumentState
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curvesGraphs
+INFO   - CoordSystemContext::curvesGraphs
+INFO   - Document::addPointAxisWithGeneratedIdentifier
+INFO   - CoordSystemContext::addPointAxisWithGeneratedIdentifier
+INFO   - Point::uniqueIdentifierGenerator curveName=Axes identifierIndex=1
+INFO   - CoordSystem::addPointAxisWithGeneratedIdentifier ordinal=1 posScreen=(710.595, 675.318) posGraph=(0, 0) identifier=Axes	point	1
+INFO   - Document::updatePointOrdinals
+INFO   - CoordSystemContext::updatePointOrdinals
+INFO   - CoordSystem::updatePointOrdinals
+INFO   - CurvesGraphs::updatePointOrdinals
+INFO   - Curve::updatePointOrdinals curve=Curve1 connectAs=FunctionSmooth
+INFO   - Curve::updatePointOrdinalsFunctions curve=Curve1 connectAs=FunctionSmooth
+INFO   - MainWindow::updateAfterCommand
+INFO   - MainWindow::updateAfterCommandStatusBarCoords
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - DocumentModelColorFilter::DocumentModelColorFilter
+INFO   - BackgroundStateContext::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::processImageFromSavedInputs
+INFO   - DocumentModelColorFilter::high curve=Curve1 curves=Axes,Curve1
+INFO   - DocumentModelColorFilter::low curve=Curve1 curves=Axes,Curve1
+INFO   - GridRemoval::remove transformationIsDefined=false removeDefinedGridLines=false
+INFO   - BackgroundStateAbstractBase::setProcessedPixmap map=(1371x1530)
+INFO   - BackgroundStateNone::setCurveSelected
+INFO   - BackgroundStateOriginal::setCurveSelected
+INFO   - BackgroundStateUnloaded::setCurveSelected
+INFO   - MainWindow::updateGridLines
+INFO   - GraphicsScene::updateAfterCommand
+INFO   - GraphicsLinesForCurves::updateHighlightOpacity highlightOpacity=0.35
+INFO   - GraphicsLinesForCurve::updateCurveStyle curve=Axes highlightOpacity=0.35
+INFO   - GraphicsLinesForCurve::updateCurveStyle curve=Curve1 highlightOpacity=0.35
+INFO   - GraphicsScene::updateCurves
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - GraphicsLinesForCurves::addRemoveCurves curveCount=2
+INFO   - GraphicsScene::updatePointMembership
+INFO   - GraphicsLinesForCurves::lineMembershipReset
+INFO   - GraphicsLinesForCurve::lineMembershipReset curve=Axes
+INFO   - GraphicsLinesForCurve::lineMembershipReset curve=Curve1
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - GraphicsScene::createPoint identifier=Axes	point	1
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - GraphicsLinesForCurves::lineMembershipPurge
+INFO   - GraphicsLinesForCurve::lineMembershipPurge curve=Axes
+INFO   - GraphicsLinesForCurve::renumberOrdinals
+INFO   - GraphicsLinesForCurve::updateGraphicsLinesToMatchGraphicsPoints numberPoints=1 ordinalRenumbering=true
+INFO   - GraphicsLinesForCurve::lineMembershipPurge curve=Curve1
+INFO   - GraphicsLinesForCurve::updateGraphicsLinesToMatchGraphicsPoints numberPoints=0 ordinalRenumbering=false
+INFO   - GraphicsLinesForCurve::drawLinesStraight curve=Curve1
+INFO   - DigitizeStateAxis::updateAfterPointAddition
+INFO   - MainWindow::updateControls selectedItems=0
+INFO   - CmdStackShadow::canRedo
+INFO   - MainWindow::updateChecklistGuide
+INFO   - ChecklistGuide::update
+INFO   - ChecklistGuideBrowser::update
+INFO   - ChecklistGuideBrowser::repopulateCheckedTags
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - ChecklistGuideBrowser::refresh
+INFO   - ChecklistGuideBrowser::processAhrefs
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::processCheckboxes
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::processDivs
+INFO   - ChecklistGuideBrowser::divShow anchor=
+INFO   - ChecklistGuideBrowser::divHide anchor=BACKGROUND
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS1
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS2
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS3
+INFO   - ChecklistGuideBrowser::divHide anchor=EXPORT
+INFO   - MainWindow::updateFittingWindow
+INFO   - FittingWindow::update
+INFO   - FittingWindow::resizeTable
+INFO   - MainWindow::slotFittingWindowCurveFit order=9
+INFO   - MainWindow::updateGeometryWindow
+INFO   - GeometryWindow::update
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - GeometryWindow::resizeTable
+INFO   - CoordSystemContext::printStream
+INFO   - DocumentScrub::DocumentScrub
+INFO   - DocumentScrub::check
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - DocumentHashGenerator::generator result=\#XBÖðô»uE¨PdI
+INFO   - CmdAbstract::saveOrCheckPostCommandDocumentStateHash stateHash=\#XBÖðô»uE¨PdI
+INFO   - Point::identifierIndex identifierIndex=2
+INFO   - CmdAbstract::redo identifierIndex=1->2
+INFO   - CmdStackShadow::canRedo
+INFO   - MainWindow::slotCleanChanged
+INFO   - MainWindow::slotMousePress
+INFO   - GraphicsScene::resetPositionHasChangedFlags
+INFO   - DigitizeStateAxis::handleMousePress
+INFO   - MainWindow::slotMouseRelease
+INFO   - DigitizeStateAxis::handleMouseRelease
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - GraphicsScene::createPoint identifier=Axes	0
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsScene::addTemporaryPoint identifer=Axes	0
+INFO   - GraphicsLinesForCurves::addPoint curve=Axes identifier=Axes	0 ordinal=-1 pos=(1012.98, 352.778)
+INFO   - GraphicsLinesForCurve::addPoint curve=Axes identifier=Axes	0 ordinal=-1 pos=(1012.98, 352.778) newPointCount=2
+INFO   - DlgEditPointAxis::DlgEditPointAxis
+INFO   - DlgValidatorFactory::DlgValidatorFactory
+INFO   - DlgValidatorFactory::createCartesianOrPolarWithPolarPolar
+INFO   - DlgValidatorFactory::createWithNonPolar
+INFO   - DlgValidatorAbstract::DlgValidatorAbstract
+INFO   - DlgValidatorNumber::DlgValidatorNumber
+INFO   - DlgValidatorFactory::createCartesianOrPolarWithNonPolarPolar
+INFO   - DlgValidatorFactory::createWithNonPolar
+INFO   - DlgValidatorAbstract::DlgValidatorAbstract
+INFO   - DlgValidatorNumber::DlgValidatorNumber
+INFO   - DlgEditPointAxis::initializeGraphCoordinates
+INFO   - DlgEditPointAxis::~DlgEditPointAxis
+INFO   - GraphicsScene::removePoint identifier=Axes	0
+INFO   - GraphicsLinesForCurves::removePoint point=Axes	0 curveCount=2
+INFO   - GraphicsLinesForCurve::identifierToOrdinal identifier=Axes	0
+INFO   - GraphicsLinesForCurve::removePoint point=-1 pointCount=2
+INFO   - Document::nextOrdinalForCurve
+INFO   - CoordSystemContext::nextOrdinalForCurve
+INFO   - CallbackNextOrdinal::nextOrdinal ordinal=2
+INFO   - Document::checkAddPointAxis
+INFO   - CoordSystemContext::checkAddPointAxis
+INFO   - CoordSystem::checkAddPointAxis posScreen=(1012.98, 352.778) posGraph=(1, 1)
+INFO   - Point::uniqueIdentifierGenerator curveName=Axes identifierIndex=2
+INFO   - CmdAbstract::CmdAbstract
+INFO   - CmdPointChangeBase::CmdPointChangeBase
+INFO   - CmdAddPointAxis::CmdAddPointAxis posScreen=(1012.98, 352.778) posGraph=(1, 1) ordinal=2
+INFO   - DigitizeStateContext::appendNewCmd
+INFO   - CmdAbstract::redo
+INFO   - Point::identifierIndex identifierIndex=3
+INFO   - CmdAddPointAxis::cmdRedo
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - DocumentHashGenerator::generator result=\#XBÖðô»uE¨PdI
+INFO   - CmdAbstract::saveOrCheckPreCommandDocumentStateHash stateHash=\#XBÖðô»uE¨PdI
+INFO   - CmdPointChangeBase::saveDocumentState
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curvesGraphs
+INFO   - CoordSystemContext::curvesGraphs
+INFO   - Document::addPointAxisWithGeneratedIdentifier
+INFO   - CoordSystemContext::addPointAxisWithGeneratedIdentifier
+INFO   - Point::uniqueIdentifierGenerator curveName=Axes identifierIndex=3
+INFO   - CoordSystem::addPointAxisWithGeneratedIdentifier ordinal=2 posScreen=(1012.98, 352.778) posGraph=(1, 1) identifier=Axes	point	3
+INFO   - Document::updatePointOrdinals
+INFO   - CoordSystemContext::updatePointOrdinals
+INFO   - CoordSystem::updatePointOrdinals
+INFO   - CurvesGraphs::updatePointOrdinals
+INFO   - Curve::updatePointOrdinals curve=Curve1 connectAs=FunctionSmooth
+INFO   - Curve::updatePointOrdinalsFunctions curve=Curve1 connectAs=FunctionSmooth
+INFO   - MainWindow::updateAfterCommand
+INFO   - MainWindow::updateAfterCommandStatusBarCoords
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - DocumentModelColorFilter::DocumentModelColorFilter
+INFO   - BackgroundStateContext::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::processImageFromSavedInputs
+INFO   - DocumentModelColorFilter::high curve=Curve1 curves=Axes,Curve1
+INFO   - DocumentModelColorFilter::low curve=Curve1 curves=Axes,Curve1
+INFO   - GridRemoval::remove transformationIsDefined=false removeDefinedGridLines=false
+INFO   - BackgroundStateAbstractBase::setProcessedPixmap map=(1371x1530)
+INFO   - BackgroundStateNone::setCurveSelected
+INFO   - BackgroundStateOriginal::setCurveSelected
+INFO   - BackgroundStateUnloaded::setCurveSelected
+INFO   - MainWindow::updateGridLines
+INFO   - GraphicsScene::updateAfterCommand
+INFO   - GraphicsLinesForCurves::updateHighlightOpacity highlightOpacity=0.35
+INFO   - GraphicsLinesForCurve::updateCurveStyle curve=Axes highlightOpacity=0.35
+INFO   - GraphicsLinesForCurve::updateCurveStyle curve=Curve1 highlightOpacity=0.35
+INFO   - GraphicsScene::updateCurves
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - GraphicsLinesForCurves::addRemoveCurves curveCount=2
+INFO   - GraphicsScene::updatePointMembership
+INFO   - GraphicsLinesForCurves::lineMembershipReset
+INFO   - GraphicsLinesForCurve::lineMembershipReset curve=Axes
+INFO   - GraphicsLinesForCurve::lineMembershipReset curve=Curve1
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - GraphicsScene::createPoint identifier=Axes	point	1
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsScene::createPoint identifier=Axes	point	3
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - GraphicsLinesForCurves::lineMembershipPurge
+INFO   - GraphicsLinesForCurve::lineMembershipPurge curve=Axes
+INFO   - GraphicsLinesForCurve::renumberOrdinals
+INFO   - GraphicsLinesForCurve::updateGraphicsLinesToMatchGraphicsPoints numberPoints=2 ordinalRenumbering=true
+INFO   - GraphicsLinesForCurve::lineMembershipPurge curve=Curve1
+INFO   - GraphicsLinesForCurve::updateGraphicsLinesToMatchGraphicsPoints numberPoints=0 ordinalRenumbering=false
+INFO   - GraphicsLinesForCurve::drawLinesStraight curve=Curve1
+INFO   - DigitizeStateAxis::updateAfterPointAddition
+INFO   - MainWindow::updateControls selectedItems=0
+INFO   - CmdStackShadow::canRedo
+INFO   - MainWindow::updateChecklistGuide
+INFO   - ChecklistGuide::update
+INFO   - ChecklistGuideBrowser::update
+INFO   - ChecklistGuideBrowser::repopulateCheckedTags
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - ChecklistGuideBrowser::refresh
+INFO   - ChecklistGuideBrowser::processAhrefs
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::processCheckboxes
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::processDivs
+INFO   - ChecklistGuideBrowser::divShow anchor=
+INFO   - ChecklistGuideBrowser::divHide anchor=BACKGROUND
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS1
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS2
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS3
+INFO   - ChecklistGuideBrowser::divHide anchor=EXPORT
+INFO   - MainWindow::updateFittingWindow
+INFO   - FittingWindow::update
+INFO   - FittingWindow::resizeTable
+INFO   - MainWindow::slotFittingWindowCurveFit order=9
+INFO   - MainWindow::updateGeometryWindow
+INFO   - GeometryWindow::update
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - GeometryWindow::resizeTable
+INFO   - CoordSystemContext::printStream
+INFO   - DocumentScrub::DocumentScrub
+INFO   - DocumentScrub::check
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - DocumentHashGenerator::generator result=Üä˜»ã…Y¦DÍßÒ½î
+INFO   - CmdAbstract::saveOrCheckPostCommandDocumentStateHash stateHash=Üä˜»ã…Y¦DÍßÒ½î
+INFO   - Point::identifierIndex identifierIndex=4
+INFO   - CmdAbstract::redo identifierIndex=3->4
+INFO   - CmdStackShadow::canRedo
+INFO   - MainWindow::slotMousePress
+INFO   - GraphicsScene::resetPositionHasChangedFlags
+INFO   - DigitizeStateAxis::handleMousePress
+INFO   - MainWindow::slotMouseRelease
+INFO   - DigitizeStateAxis::handleMouseRelease
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - GraphicsScene::createPoint identifier=Axes	0
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsScene::addTemporaryPoint identifer=Axes	0
+INFO   - GraphicsLinesForCurves::addPoint curve=Axes identifier=Axes	0 ordinal=-1 pos=(1007.94, 680.357)
+INFO   - GraphicsLinesForCurve::addPoint curve=Axes identifier=Axes	0 ordinal=-1 pos=(1007.94, 680.357) newPointCount=3
+INFO   - DlgEditPointAxis::DlgEditPointAxis
+INFO   - DlgValidatorFactory::DlgValidatorFactory
+INFO   - DlgValidatorFactory::createCartesianOrPolarWithPolarPolar
+INFO   - DlgValidatorFactory::createWithNonPolar
+INFO   - DlgValidatorAbstract::DlgValidatorAbstract
+INFO   - DlgValidatorNumber::DlgValidatorNumber
+INFO   - DlgValidatorFactory::createCartesianOrPolarWithNonPolarPolar
+INFO   - DlgValidatorFactory::createWithNonPolar
+INFO   - DlgValidatorAbstract::DlgValidatorAbstract
+INFO   - DlgValidatorNumber::DlgValidatorNumber
+INFO   - DlgEditPointAxis::initializeGraphCoordinates
+INFO   - DlgEditPointAxis::~DlgEditPointAxis
+INFO   - GraphicsScene::removePoint identifier=Axes	0
+INFO   - GraphicsLinesForCurves::removePoint point=Axes	0 curveCount=2
+INFO   - GraphicsLinesForCurve::identifierToOrdinal identifier=Axes	0
+INFO   - GraphicsLinesForCurve::removePoint point=-1 pointCount=3
+INFO   - Document::nextOrdinalForCurve
+INFO   - CoordSystemContext::nextOrdinalForCurve
+INFO   - CallbackNextOrdinal::nextOrdinal ordinal=3
+INFO   - Document::checkAddPointAxis
+INFO   - CoordSystemContext::checkAddPointAxis
+INFO   - CoordSystem::checkAddPointAxis posScreen=(1007.94, 680.357) posGraph=(1, 0)
+INFO   - Point::uniqueIdentifierGenerator curveName=Axes identifierIndex=4
+INFO   - CmdAbstract::CmdAbstract
+INFO   - CmdPointChangeBase::CmdPointChangeBase
+INFO   - CmdAddPointAxis::CmdAddPointAxis posScreen=(1007.94, 680.357) posGraph=(1, 0) ordinal=3
+INFO   - DigitizeStateContext::appendNewCmd
+INFO   - CmdAbstract::redo
+INFO   - Point::identifierIndex identifierIndex=5
+INFO   - CmdAddPointAxis::cmdRedo
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - DocumentHashGenerator::generator result=Üä˜»ã…Y¦DÍßÒ½î
+INFO   - CmdAbstract::saveOrCheckPreCommandDocumentStateHash stateHash=Üä˜»ã…Y¦DÍßÒ½î
+INFO   - CmdPointChangeBase::saveDocumentState
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curvesGraphs
+INFO   - CoordSystemContext::curvesGraphs
+INFO   - Document::addPointAxisWithGeneratedIdentifier
+INFO   - CoordSystemContext::addPointAxisWithGeneratedIdentifier
+INFO   - Point::uniqueIdentifierGenerator curveName=Axes identifierIndex=5
+INFO   - CoordSystem::addPointAxisWithGeneratedIdentifier ordinal=3 posScreen=(1007.94, 680.357) posGraph=(1, 0) identifier=Axes	point	5
+INFO   - Document::updatePointOrdinals
+INFO   - CoordSystemContext::updatePointOrdinals
+INFO   - CoordSystem::updatePointOrdinals
+INFO   - CurvesGraphs::updatePointOrdinals
+INFO   - Curve::updatePointOrdinals curve=Curve1 connectAs=FunctionSmooth
+INFO   - Curve::updatePointOrdinalsFunctions curve=Curve1 connectAs=FunctionSmooth
+INFO   - MainWindow::updateAfterCommand
+INFO   - MainWindow::updateAfterCommandStatusBarCoords
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Transformation::calculateTransformFromLinearCartesianPoints
+INFO   - Transformation::updateTransformFromMatrices matrixScreen=
+                     710.595        1012.98        1007.94
+                     675.318        352.778        680.357
+                           1              1              1  matrixGraphRaw=
+                           0              1              1
+                           0              1              0
+                           1              1              1  matrixGraphLinear=
+                           0              1              1
+                           0              1              0
+                           1              1              1
+ originalScreen0=(710.595, 675.318)
+ originalScreen1=(1012.98, 352.778)
+ originalScreen2=(1007.94, 680.357)
+ roundTripScreen0=(710.595, 675.318)
+ roundTripScreen1=(1012.98, 352.778)
+ roundTripScreen2=(1007.94, 680.357)
+
+INFO   - DocumentModelColorFilter::DocumentModelColorFilter
+INFO   - BackgroundStateContext::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::processImageFromSavedInputs
+INFO   - DocumentModelColorFilter::high curve=Curve1 curves=Axes,Curve1
+INFO   - DocumentModelColorFilter::low curve=Curve1 curves=Axes,Curve1
+INFO   - GridRemoval::remove transformationIsDefined=true removeDefinedGridLines=false
+INFO   - BackgroundStateAbstractBase::setProcessedPixmap map=(1371x1530)
+INFO   - BackgroundStateNone::setCurveSelected
+INFO   - BackgroundStateOriginal::setCurveSelected
+INFO   - BackgroundStateUnloaded::setCurveSelected
+INFO   - MainWindow::updateGridLines
+INFO   - TransformationStateContext::triggerStateTransition
+INFO   - TransformationStateDefined::begin
+INFO   - Document::initializeGridDisplay
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - GridInitializer::initializeWithWidePolarCoverage
+INFO   - GridInitializer::initializeWithNarrowCoverage
+INFO   - CoordSystemContext::setModelGridDisplay
+INFO   - TransformationStateDefined::initializeModelGridRemoval
+INFO   - DocumentModelColorFilter::DocumentModelColorFilter
+INFO   - DocumentModelColorFilter::high curve=Curve1 curves=Axes,Curve1
+INFO   - DocumentModelColorFilter::low curve=Curve1 curves=Axes,Curve1
+INFO   - GridRemoval::remove transformationIsDefined=true removeDefinedGridLines=false
+INFO   - GridClassifier::classify
+INFO   - GridClassifier::computeGraphCoordinateLimits
+INFO   - GridClassifier::initializeHistogramBins
+INFO   - GridClassifier::populateHistogramBins
+INFO   - GridClassifier::searchStartStepSpace
+INFO   - GridClassifier::searchStartStepSpace
+INFO   - GridClassifier::searchCountSpace start=88 step=313
+INFO   - GridClassifier::searchCountSpace start=192 step=287
+INFO   - Document::setModelGridRemoval
+INFO   - CoordSystemContext::setModelGridRemoval
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Checker::prepareForDisplay  transformation=Transformation
+  affine=no matrix=(0.00336226, 5.17271e-05, -2.42414, 5.17271e-05, -0.0030519, 2.02424, 0, 0, 1)
+INFO   - Checker::adjustPolarAngleRanges transformation=Transformation
+  affine=no matrix=(0.00336226, 5.17271e-05, -2.42414, 5.17271e-05, -0.0030519, 2.02424, 0, 0, 1)
+INFO   - Checker::adjustPolarAngleRanges path=()
+INFO   - TransformationStateDefined::startTimer
+INFO   - GraphicsScene::updateAfterCommand
+INFO   - GraphicsLinesForCurves::updateHighlightOpacity highlightOpacity=0.35
+INFO   - GraphicsLinesForCurve::updateCurveStyle curve=Axes highlightOpacity=0.35
+INFO   - GraphicsLinesForCurve::updateCurveStyle curve=Curve1 highlightOpacity=0.35
+INFO   - GraphicsScene::updateCurves
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - GraphicsLinesForCurves::addRemoveCurves curveCount=2
+INFO   - GraphicsScene::updatePointMembership
+INFO   - GraphicsLinesForCurves::lineMembershipReset
+INFO   - GraphicsLinesForCurve::lineMembershipReset curve=Axes
+INFO   - GraphicsLinesForCurve::lineMembershipReset curve=Curve1
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - GraphicsScene::createPoint identifier=Axes	point	3
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsScene::createPoint identifier=Axes	point	5
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - GraphicsLinesForCurves::lineMembershipPurge
+INFO   - GraphicsLinesForCurve::lineMembershipPurge curve=Axes
+INFO   - GraphicsLinesForCurve::renumberOrdinals
+INFO   - GraphicsLinesForCurve::updateGraphicsLinesToMatchGraphicsPoints numberPoints=3 ordinalRenumbering=true
+INFO   - GraphicsLinesForCurve::lineMembershipPurge curve=Curve1
+INFO   - GraphicsLinesForCurve::updateGraphicsLinesToMatchGraphicsPoints numberPoints=0 ordinalRenumbering=false
+INFO   - GraphicsLinesForCurve::drawLinesStraight curve=Curve1
+INFO   - DigitizeStateAxis::updateAfterPointAddition
+INFO   - MainWindow::updateControls selectedItems=0
+INFO   - CmdStackShadow::canRedo
+INFO   - MainWindow::updateChecklistGuide
+INFO   - ChecklistGuide::update
+INFO   - ChecklistGuideBrowser::update
+INFO   - ChecklistGuideBrowser::repopulateCheckedTags
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - ChecklistGuideBrowser::refresh
+INFO   - ChecklistGuideBrowser::processAhrefs
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::processCheckboxes
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::processDivs
+INFO   - ChecklistGuideBrowser::divShow anchor=
+INFO   - ChecklistGuideBrowser::divHide anchor=BACKGROUND
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS1
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS2
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS3
+INFO   - ChecklistGuideBrowser::divHide anchor=EXPORT
+INFO   - MainWindow::updateFittingWindow
+INFO   - FittingWindow::update
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - FittingWindow::resizeTable
+INFO   - MainWindow::slotFittingWindowCurveFit order=9
+INFO   - MainWindow::updateGeometryWindow
+INFO   - GeometryWindow::update
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - GeometryWindow::resizeTable
+INFO   - CoordSystemContext::printStream
+INFO   - DocumentScrub::DocumentScrub
+INFO   - DocumentScrub::check
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - DocumentHashGenerator::generator result=ùÏ_f?S9OÊÑÅ~šmƒ
+INFO   - CmdAbstract::saveOrCheckPostCommandDocumentStateHash stateHash=ùÏ_f?S9OÊÑÅ~šmƒ
+INFO   - Point::identifierIndex identifierIndex=6
+INFO   - CmdAbstract::redo identifierIndex=5->6
+INFO   - CmdStackShadow::canRedo
+INFO   - TransformationStateDefined::slotTimeout
+INFO   - MainWindow::slotDigitizePointMatch
+INFO   - DigitizeStateAxis::end
+INFO   - DigitizeStatePointMatch::begin
+INFO   - ViewPointStyle::setPointStyle
+INFO   - ViewPointStyle::pixmapForCurrentSettings
+INFO   - DocumentModelColorFilter::DocumentModelColorFilter
+INFO   - ViewSegmentFilter::setColorFilterSettings
+INFO   - MainWindow::updateDigitizeStateIfSoftwareTriggered
+INFO   - MainWindow::slotDigitizePointMatch
+INFO   - ViewPointStyle::setEnabled enabled=true
+INFO   - ViewPointStyle::pixmapForCurrentSettings
+INFO   - ViewSegmentFilter::setEnabled enabled=true
+INFO   - MainWindow::updateControls selectedItems=0
+INFO   - CmdStackShadow::canRedo
+INFO   - ViewPointStyle::setEnabled enabled=true
+INFO   - ViewPointStyle::pixmapForCurrentSettings
+INFO   - ViewSegmentFilter::setEnabled enabled=true
+INFO   - MainWindow::updateControls selectedItems=0
+INFO   - CmdStackShadow::canRedo
+INFO   - MainWindow::slotMousePress
+INFO   - GraphicsScene::resetPositionHasChangedFlags
+INFO   - DigitizeStatePointMatch::handleMousePress
+INFO   - MainWindow::slotMouseRelease
+INFO   - DigitizeStatePointMatch::handleMouseRelease
+INFO   - Document::iterateThroughCurveSegments
+INFO   - CoordSystemContext::iterateThroughCurveSegments
+INFO   - CmdAbstract::CmdAbstract
+INFO   - CmdPointChangeBase::CmdPointChangeBase
+INFO   - CmdAddPointGraph::CmdAddPointGraph posScreen=(1007.94, 287.262) ordinal=1
+INFO   - DigitizeStateContext::appendNewCmd
+INFO   - CmdAbstract::redo
+INFO   - Point::identifierIndex identifierIndex=6
+INFO   - CmdAddPointGraph::cmdRedo
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - DocumentHashGenerator::generator result=ùÏ_f?S9OÊÑÅ~šmƒ
+INFO   - CmdAbstract::saveOrCheckPreCommandDocumentStateHash stateHash=ùÏ_f?S9OÊÑÅ~šmƒ
+INFO   - CmdPointChangeBase::saveDocumentState
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curvesGraphs
+INFO   - CoordSystemContext::curvesGraphs
+INFO   - Document::addPointGraphWithGeneratedIdentifier
+INFO   - CoordSystemContext::addPointGraphWithGeneratedIdentifier
+INFO   - Point::uniqueIdentifierGenerator curveName=Curve1 identifierIndex=6
+INFO   - CoordSystem::addPointGraphWithGeneratedIdentifier ordinal=1 posScreen=(1007.94, 287.262) identifier=Curve1	point	6
+INFO   - Document::updatePointOrdinals
+INFO   - CoordSystemContext::updatePointOrdinals
+INFO   - CoordSystem::updatePointOrdinals
+INFO   - CurvesGraphs::updatePointOrdinals
+INFO   - Curve::updatePointOrdinals curve=Curve1 connectAs=FunctionSmooth
+INFO   - Curve::updatePointOrdinalsFunctions curve=Curve1 connectAs=FunctionSmooth
+INFO   - MainWindow::updateAfterCommand
+INFO   - MainWindow::updateAfterCommandStatusBarCoords
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Transformation::calculateTransformFromLinearCartesianPoints
+INFO   - Transformation::updateTransformFromMatrices matrixScreen=
+                     710.595        1012.98        1007.94
+                     675.318        352.778        680.357
+                           1              1              1  matrixGraphRaw=
+                           0              1              1
+                           0              1              0
+                           1              1              1  matrixGraphLinear=
+                           0              1              1
+                           0              1              0
+                           1              1              1
+ originalScreen0=(710.595, 675.318)
+ originalScreen1=(1012.98, 352.778)
+ originalScreen2=(1007.94, 680.357)
+ roundTripScreen0=(710.595, 675.318)
+ roundTripScreen1=(1012.98, 352.778)
+ roundTripScreen2=(1007.94, 680.357)
+
+INFO   - DocumentModelColorFilter::DocumentModelColorFilter
+INFO   - BackgroundStateContext::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::processImageFromSavedInputs
+INFO   - DocumentModelColorFilter::high curve=Curve1 curves=Axes,Curve1
+INFO   - DocumentModelColorFilter::low curve=Curve1 curves=Axes,Curve1
+INFO   - GridRemoval::remove transformationIsDefined=true removeDefinedGridLines=false
+INFO   - BackgroundStateAbstractBase::setProcessedPixmap map=(1371x1530)
+INFO   - BackgroundStateNone::setCurveSelected
+INFO   - BackgroundStateOriginal::setCurveSelected
+INFO   - BackgroundStateUnloaded::setCurveSelected
+INFO   - MainWindow::updateGridLines
+INFO   - GraphicsScene::updateAfterCommand
+INFO   - GraphicsLinesForCurves::updateHighlightOpacity highlightOpacity=0.35
+INFO   - GraphicsLinesForCurve::updateCurveStyle curve=Axes highlightOpacity=0.35
+INFO   - GraphicsLinesForCurve::updateCurveStyle curve=Curve1 highlightOpacity=0.35
+INFO   - GraphicsScene::updateCurves
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - GraphicsLinesForCurves::addRemoveCurves curveCount=2
+INFO   - GraphicsScene::updatePointMembership
+INFO   - GraphicsLinesForCurves::lineMembershipReset
+INFO   - GraphicsLinesForCurve::lineMembershipReset curve=Axes
+INFO   - GraphicsLinesForCurve::lineMembershipReset curve=Curve1
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - GraphicsScene::createPoint identifier=Axes	point	5
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - GraphicsScene::createPoint identifier=Curve1	point	6
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsLinesForCurves::lineMembershipPurge
+INFO   - GraphicsLinesForCurve::lineMembershipPurge curve=Axes
+INFO   - GraphicsLinesForCurve::renumberOrdinals
+INFO   - GraphicsLinesForCurve::updateGraphicsLinesToMatchGraphicsPoints numberPoints=3 ordinalRenumbering=true
+INFO   - GraphicsLinesForCurve::lineMembershipPurge curve=Curve1
+INFO   - GraphicsLinesForCurve::updateGraphicsLinesToMatchGraphicsPoints numberPoints=1 ordinalRenumbering=false
+INFO   - GraphicsLinesForCurve::drawLinesStraight curve=Curve1
+INFO   - DigitizeStatePointMatch::updateAfterPointAddition
+INFO   - MainWindow::updateControls selectedItems=0
+INFO   - CmdStackShadow::canRedo
+INFO   - MainWindow::updateChecklistGuide
+INFO   - ChecklistGuide::update
+INFO   - ChecklistGuideBrowser::update
+INFO   - ChecklistGuideBrowser::repopulateCheckedTags
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - ChecklistGuideBrowser::refresh
+INFO   - ChecklistGuideBrowser::processAhrefs
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::processCheckboxes
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::processDivs
+INFO   - ChecklistGuideBrowser::divShow anchor=
+INFO   - ChecklistGuideBrowser::divHide anchor=BACKGROUND
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS1
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS2
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS3
+INFO   - ChecklistGuideBrowser::divHide anchor=EXPORT
+INFO   - MainWindow::updateFittingWindow
+INFO   - FittingWindow::update
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - FittingWindow::resizeTable
+INFO   - MainWindow::slotFittingWindowCurveFit order=9
+INFO   - MainWindow::updateGeometryWindow
+INFO   - GeometryWindow::update
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - GeometryWindow::resizeTable
+INFO   - CoordSystemContext::printStream
+INFO   - DocumentScrub::DocumentScrub
+INFO   - DocumentScrub::check
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - DocumentHashGenerator::generator result=È*ÑQfA…4ÔíêÁ¿
+INFO   - CmdAbstract::saveOrCheckPostCommandDocumentStateHash stateHash=È*ÑQfA…4ÔíêÁ¿
+INFO   - Point::identifierIndex identifierIndex=7
+INFO   - CmdAbstract::redo identifierIndex=6->7
+INFO   - CmdStackShadow::canRedo
+INFO   - DigitizeStatePointMatch::findPointsAndShowFirstCandidate
+INFO   - DigitizeStatePointMatch::extractSamplePointPixels
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - PointMatchAlgorithm::PointMatchAlgorithm
+INFO   - PointMatchAlgorithm::findPoints samplePointPixels=1941
+INFO   - PointMatchAlgorithm::optimizeLengthForFft originalLength=1371 newLength=1372
+INFO   - PointMatchAlgorithm::optimizeLengthForFft originalLength=1530 newLength=1536
+INFO   - PointMatchAlgorithm::loadImage
+INFO   - PointMatchAlgorithm::allocateMemory
+INFO   - PointMatchAlgorithm::populateImageArray
+INFO   - PointMatchAlgorithm::removePixelsNearExistingPoints
+INFO   - PointMatchAlgorithm::loadImage
+INFO   - PointMatchAlgorithm::allocateMemory
+INFO   - PointMatchAlgorithm::populateSampleArray
+INFO   - PointMatchAlgorithm::computeConvolution
+INFO   - PointMatchAlgorithm::allocateMemory
+INFO   - PointMatchAlgorithm::conjugateMatrix
+INFO   - PointMatchAlgorithm::multiplyMatrices
+INFO   - PointMatchAlgorithm::releasePhaseArray
+INFO   - PointMatchAlgorithm::assembleLocalMaxima
+INFO   - PointMatchAlgorithm::releaseImageArray
+INFO   - PointMatchAlgorithm::releasePhaseArray
+INFO   - PointMatchAlgorithm::releaseImageArray
+INFO   - PointMatchAlgorithm::releasePhaseArray
+INFO   - PointMatchAlgorithm::releaseImageArray
+INFO   - GraphicsScene::createPoint identifier=Axes	0
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsScene::removeTemporaryPointIfExists
+INFO   - GraphicsLinesForCurves::removeTemporaryPointIfExists
+INFO   - GraphicsLinesForCurve::removeTemporaryPointIfExists
+INFO   - GraphicsScene::addTemporaryPoint identifer=Axes	0
+INFO   - GraphicsLinesForCurves::addPoint curve=Axes identifier=Axes	0 ordinal=-1 pos=(0, 0)
+INFO   - GraphicsLinesForCurve::addPoint curve=Axes identifier=Axes	0 ordinal=-1 pos=(0, 0) newPointCount=3
+INFO   - MainWindow::slotMousePress
+INFO   - GraphicsScene::resetPositionHasChangedFlags
+INFO   - DigitizeStatePointMatch::handleMousePress
+INFO   - MainWindow::slotMouseRelease
+INFO   - DigitizeStatePointMatch::handleMouseRelease
+INFO   - Document::iterateThroughCurveSegments
+INFO   - CoordSystemContext::iterateThroughCurveSegments
+INFO   - CmdAbstract::CmdAbstract
+INFO   - CmdPointChangeBase::CmdPointChangeBase
+INFO   - CmdAddPointGraph::CmdAddPointGraph posScreen=(907.143, 413.254) ordinal=1
+INFO   - DigitizeStateContext::appendNewCmd
+INFO   - CmdAbstract::redo
+INFO   - Point::identifierIndex identifierIndex=7
+INFO   - CmdAddPointGraph::cmdRedo
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - DocumentHashGenerator::generator result=È*ÑQfA…4ÔíêÁ¿
+INFO   - CmdAbstract::saveOrCheckPreCommandDocumentStateHash stateHash=È*ÑQfA…4ÔíêÁ¿
+INFO   - CmdPointChangeBase::saveDocumentState
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curvesGraphs
+INFO   - CoordSystemContext::curvesGraphs
+INFO   - Document::addPointGraphWithGeneratedIdentifier
+INFO   - CoordSystemContext::addPointGraphWithGeneratedIdentifier
+INFO   - Point::uniqueIdentifierGenerator curveName=Curve1 identifierIndex=7
+INFO   - CoordSystem::addPointGraphWithGeneratedIdentifier ordinal=1 posScreen=(907.143, 413.254) identifier=Curve1	point	7
+INFO   - Document::updatePointOrdinals
+INFO   - CoordSystemContext::updatePointOrdinals
+INFO   - CoordSystem::updatePointOrdinals
+INFO   - CurvesGraphs::updatePointOrdinals
+INFO   - Curve::updatePointOrdinals curve=Curve1 connectAs=FunctionSmooth
+INFO   - Curve::updatePointOrdinalsFunctions curve=Curve1 connectAs=FunctionSmooth
+INFO   - MainWindow::updateAfterCommand
+INFO   - MainWindow::updateAfterCommandStatusBarCoords
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Transformation::calculateTransformFromLinearCartesianPoints
+INFO   - Transformation::updateTransformFromMatrices matrixScreen=
+                     710.595        1012.98        1007.94
+                     675.318        352.778        680.357
+                           1              1              1  matrixGraphRaw=
+                           0              1              1
+                           0              1              0
+                           1              1              1  matrixGraphLinear=
+                           0              1              1
+                           0              1              0
+                           1              1              1
+ originalScreen0=(710.595, 675.318)
+ originalScreen1=(1012.98, 352.778)
+ originalScreen2=(1007.94, 680.357)
+ roundTripScreen0=(710.595, 675.318)
+ roundTripScreen1=(1012.98, 352.778)
+ roundTripScreen2=(1007.94, 680.357)
+
+INFO   - DocumentModelColorFilter::DocumentModelColorFilter
+INFO   - BackgroundStateContext::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::processImageFromSavedInputs
+INFO   - DocumentModelColorFilter::high curve=Curve1 curves=Axes,Curve1
+INFO   - DocumentModelColorFilter::low curve=Curve1 curves=Axes,Curve1
+INFO   - GridRemoval::remove transformationIsDefined=true removeDefinedGridLines=false
+INFO   - BackgroundStateAbstractBase::setProcessedPixmap map=(1371x1530)
+INFO   - BackgroundStateNone::setCurveSelected
+INFO   - BackgroundStateOriginal::setCurveSelected
+INFO   - BackgroundStateUnloaded::setCurveSelected
+INFO   - MainWindow::updateGridLines
+INFO   - GraphicsScene::updateAfterCommand
+INFO   - GraphicsLinesForCurves::updateHighlightOpacity highlightOpacity=0.35
+INFO   - GraphicsLinesForCurve::updateCurveStyle curve=Axes highlightOpacity=0.35
+INFO   - GraphicsLinesForCurve::updateCurveStyle curve=Curve1 highlightOpacity=0.35
+INFO   - GraphicsScene::updateCurves
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - GraphicsLinesForCurves::addRemoveCurves curveCount=2
+INFO   - GraphicsScene::updatePointMembership
+INFO   - GraphicsLinesForCurves::lineMembershipReset
+INFO   - GraphicsLinesForCurve::lineMembershipReset curve=Axes
+INFO   - GraphicsLinesForCurve::lineMembershipReset curve=Curve1
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - GraphicsScene::createPoint identifier=Axes	point	5
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - GraphicsScene::createPoint identifier=Curve1	point	6
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsLinesForCurves::lineMembershipPurge
+INFO   - GraphicsLinesForCurve::lineMembershipPurge curve=Axes
+INFO   - GraphicsLinesForCurve::renumberOrdinals
+INFO   - GraphicsLinesForCurve::updateGraphicsLinesToMatchGraphicsPoints numberPoints=3 ordinalRenumbering=true
+INFO   - GraphicsLinesForCurve::lineMembershipPurge curve=Curve1
+INFO   - GraphicsLinesForCurve::updateGraphicsLinesToMatchGraphicsPoints numberPoints=2 ordinalRenumbering=false
+INFO   - GraphicsLinesForCurve::drawLinesStraight curve=Curve1
+INFO   - DigitizeStatePointMatch::updateAfterPointAddition
+INFO   - MainWindow::updateControls selectedItems=0
+INFO   - CmdStackShadow::canRedo
+INFO   - MainWindow::updateChecklistGuide
+INFO   - ChecklistGuide::update
+INFO   - ChecklistGuideBrowser::update
+INFO   - ChecklistGuideBrowser::repopulateCheckedTags
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - ChecklistGuideBrowser::refresh
+INFO   - ChecklistGuideBrowser::processAhrefs
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::processCheckboxes
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::processDivs
+INFO   - ChecklistGuideBrowser::divShow anchor=
+INFO   - ChecklistGuideBrowser::divHide anchor=BACKGROUND
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS1
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS2
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS3
+INFO   - ChecklistGuideBrowser::divHide anchor=EXPORT
+INFO   - MainWindow::updateFittingWindow
+INFO   - FittingWindow::update
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - FittingWindow::resizeTable
+INFO   - MainWindow::slotFittingWindowCurveFit order=9
+INFO   - MainWindow::updateGeometryWindow
+INFO   - GeometryWindow::update
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - GeometryWindow::resizeTable
+INFO   - CoordSystemContext::printStream
+INFO   - DocumentScrub::DocumentScrub
+INFO   - DocumentScrub::check
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - DocumentHashGenerator::generator result=å"F`™zÁ,¬ö0×²×
+INFO   - CmdAbstract::saveOrCheckPostCommandDocumentStateHash stateHash=å"F`™zÁ,¬ö0×²×
+INFO   - Point::identifierIndex identifierIndex=8
+INFO   - CmdAbstract::redo identifierIndex=7->8
+INFO   - CmdStackShadow::canRedo
+INFO   - DigitizeStatePointMatch::findPointsAndShowFirstCandidate
+INFO   - DigitizeStatePointMatch::extractSamplePointPixels
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - PointMatchAlgorithm::PointMatchAlgorithm
+INFO   - PointMatchAlgorithm::findPoints samplePointPixels=1941
+INFO   - PointMatchAlgorithm::optimizeLengthForFft originalLength=1371 newLength=1372
+INFO   - PointMatchAlgorithm::optimizeLengthForFft originalLength=1530 newLength=1536
+INFO   - PointMatchAlgorithm::loadImage
+INFO   - PointMatchAlgorithm::allocateMemory
+INFO   - PointMatchAlgorithm::populateImageArray
+INFO   - PointMatchAlgorithm::removePixelsNearExistingPoints
+INFO   - PointMatchAlgorithm::loadImage
+INFO   - PointMatchAlgorithm::allocateMemory
+INFO   - PointMatchAlgorithm::populateSampleArray
+INFO   - PointMatchAlgorithm::computeConvolution
+INFO   - PointMatchAlgorithm::allocateMemory
+INFO   - PointMatchAlgorithm::conjugateMatrix
+INFO   - PointMatchAlgorithm::multiplyMatrices
+INFO   - PointMatchAlgorithm::releasePhaseArray
+INFO   - PointMatchAlgorithm::assembleLocalMaxima
+INFO   - PointMatchAlgorithm::releaseImageArray
+INFO   - PointMatchAlgorithm::releasePhaseArray
+INFO   - PointMatchAlgorithm::releaseImageArray
+INFO   - PointMatchAlgorithm::releasePhaseArray
+INFO   - PointMatchAlgorithm::releaseImageArray
+INFO   - GraphicsScene::createPoint identifier=Axes	0
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsScene::removeTemporaryPointIfExists
+INFO   - GraphicsLinesForCurves::removeTemporaryPointIfExists
+INFO   - GraphicsLinesForCurve::removeTemporaryPointIfExists
+INFO   - GraphicsScene::addTemporaryPoint identifer=Axes	0
+INFO   - GraphicsLinesForCurves::addPoint curve=Axes identifier=Axes	0 ordinal=-1 pos=(0, 0)
+INFO   - GraphicsLinesForCurve::addPoint curve=Axes identifier=Axes	0 ordinal=-1 pos=(0, 0) newPointCount=3
+INFO   - MainWindow::slotMousePress
+INFO   - GraphicsScene::resetPositionHasChangedFlags
+INFO   - DigitizeStatePointMatch::handleMousePress
+INFO   - MainWindow::slotMouseRelease
+INFO   - DigitizeStatePointMatch::handleMouseRelease
+INFO   - Document::iterateThroughCurveSegments
+INFO   - CoordSystemContext::iterateThroughCurveSegments
+INFO   - CmdAbstract::CmdAbstract
+INFO   - CmdPointChangeBase::CmdPointChangeBase
+INFO   - CmdAddPointGraph::CmdAddPointGraph posScreen=(1043.21, 587.123) ordinal=0.5
+INFO   - DigitizeStateContext::appendNewCmd
+INFO   - CmdAbstract::redo
+INFO   - Point::identifierIndex identifierIndex=8
+INFO   - CmdAddPointGraph::cmdRedo
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - DocumentHashGenerator::generator result=å"F`™zÁ,¬ö0×²×
+INFO   - CmdAbstract::saveOrCheckPreCommandDocumentStateHash stateHash=å"F`™zÁ,¬ö0×²×
+INFO   - CmdPointChangeBase::saveDocumentState
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curvesGraphs
+INFO   - CoordSystemContext::curvesGraphs
+INFO   - Document::addPointGraphWithGeneratedIdentifier
+INFO   - CoordSystemContext::addPointGraphWithGeneratedIdentifier
+INFO   - Point::uniqueIdentifierGenerator curveName=Curve1 identifierIndex=8
+INFO   - CoordSystem::addPointGraphWithGeneratedIdentifier ordinal=0.5 posScreen=(1043.21, 587.123) identifier=Curve1	point	8
+INFO   - Document::updatePointOrdinals
+INFO   - CoordSystemContext::updatePointOrdinals
+INFO   - CoordSystem::updatePointOrdinals
+INFO   - CurvesGraphs::updatePointOrdinals
+INFO   - Curve::updatePointOrdinals curve=Curve1 connectAs=FunctionSmooth
+INFO   - Curve::updatePointOrdinalsFunctions curve=Curve1 connectAs=FunctionSmooth
+INFO   - MainWindow::updateAfterCommand
+INFO   - MainWindow::updateAfterCommandStatusBarCoords
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Transformation::calculateTransformFromLinearCartesianPoints
+INFO   - Transformation::updateTransformFromMatrices matrixScreen=
+                     710.595        1012.98        1007.94
+                     675.318        352.778        680.357
+                           1              1              1  matrixGraphRaw=
+                           0              1              1
+                           0              1              0
+                           1              1              1  matrixGraphLinear=
+                           0              1              1
+                           0              1              0
+                           1              1              1
+ originalScreen0=(710.595, 675.318)
+ originalScreen1=(1012.98, 352.778)
+ originalScreen2=(1007.94, 680.357)
+ roundTripScreen0=(710.595, 675.318)
+ roundTripScreen1=(1012.98, 352.778)
+ roundTripScreen2=(1007.94, 680.357)
+
+INFO   - DocumentModelColorFilter::DocumentModelColorFilter
+INFO   - BackgroundStateContext::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::processImageFromSavedInputs
+INFO   - DocumentModelColorFilter::high curve=Curve1 curves=Axes,Curve1
+INFO   - DocumentModelColorFilter::low curve=Curve1 curves=Axes,Curve1
+INFO   - GridRemoval::remove transformationIsDefined=true removeDefinedGridLines=false
+INFO   - BackgroundStateAbstractBase::setProcessedPixmap map=(1371x1530)
+INFO   - BackgroundStateNone::setCurveSelected
+INFO   - BackgroundStateOriginal::setCurveSelected
+INFO   - BackgroundStateUnloaded::setCurveSelected
+INFO   - MainWindow::updateGridLines
+INFO   - GraphicsScene::updateAfterCommand
+INFO   - GraphicsLinesForCurves::updateHighlightOpacity highlightOpacity=0.35
+INFO   - GraphicsLinesForCurve::updateCurveStyle curve=Axes highlightOpacity=0.35
+INFO   - GraphicsLinesForCurve::updateCurveStyle curve=Curve1 highlightOpacity=0.35
+INFO   - GraphicsScene::updateCurves
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - GraphicsLinesForCurves::addRemoveCurves curveCount=2
+INFO   - GraphicsScene::updatePointMembership
+INFO   - GraphicsLinesForCurves::lineMembershipReset
+INFO   - GraphicsLinesForCurve::lineMembershipReset curve=Axes
+INFO   - GraphicsLinesForCurve::lineMembershipReset curve=Curve1
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - GraphicsScene::createPoint identifier=Axes	point	5
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - GraphicsScene::createPoint identifier=Curve1	point	8
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsLinesForCurves::lineMembershipPurge
+INFO   - GraphicsLinesForCurve::lineMembershipPurge curve=Axes
+INFO   - GraphicsLinesForCurve::renumberOrdinals
+INFO   - GraphicsLinesForCurve::updateGraphicsLinesToMatchGraphicsPoints numberPoints=3 ordinalRenumbering=true
+INFO   - GraphicsLinesForCurve::lineMembershipPurge curve=Curve1
+INFO   - GraphicsLinesForCurve::updateGraphicsLinesToMatchGraphicsPoints numberPoints=3 ordinalRenumbering=false
+INFO   - GraphicsLinesForCurve::drawLinesSmooth curve=Curve1
+INFO   - DigitizeStatePointMatch::updateAfterPointAddition
+INFO   - MainWindow::updateControls selectedItems=0
+INFO   - CmdStackShadow::canRedo
+INFO   - MainWindow::updateChecklistGuide
+INFO   - ChecklistGuide::update
+INFO   - ChecklistGuideBrowser::update
+INFO   - ChecklistGuideBrowser::repopulateCheckedTags
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - ChecklistGuideBrowser::refresh
+INFO   - ChecklistGuideBrowser::processAhrefs
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::processCheckboxes
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::processDivs
+INFO   - ChecklistGuideBrowser::divShow anchor=
+INFO   - ChecklistGuideBrowser::divHide anchor=BACKGROUND
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS1
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS2
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS3
+INFO   - ChecklistGuideBrowser::divHide anchor=EXPORT
+INFO   - MainWindow::updateFittingWindow
+INFO   - FittingWindow::update
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - FittingWindow::resizeTable
+INFO   - MainWindow::slotFittingWindowCurveFit order=9
+INFO   - MainWindow::updateGeometryWindow
+INFO   - GeometryWindow::update
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - GeometryWindow::resizeTable
+INFO   - CoordSystemContext::printStream
+INFO   - DocumentScrub::DocumentScrub
+INFO   - DocumentScrub::check
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - DocumentHashGenerator::generator result=¶¨·õ2uAÐš>ˆ¿
+INFO   - CmdAbstract::saveOrCheckPostCommandDocumentStateHash stateHash=¶¨·õ2uAÐš>ˆ¿
+INFO   - Point::identifierIndex identifierIndex=9
+INFO   - CmdAbstract::redo identifierIndex=8->9
+INFO   - CmdStackShadow::canRedo
+INFO   - DigitizeStatePointMatch::findPointsAndShowFirstCandidate
+INFO   - DigitizeStatePointMatch::extractSamplePointPixels
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - PointMatchAlgorithm::PointMatchAlgorithm
+INFO   - PointMatchAlgorithm::findPoints samplePointPixels=1941
+INFO   - PointMatchAlgorithm::optimizeLengthForFft originalLength=1371 newLength=1372
+INFO   - PointMatchAlgorithm::optimizeLengthForFft originalLength=1530 newLength=1536
+INFO   - PointMatchAlgorithm::loadImage
+INFO   - PointMatchAlgorithm::allocateMemory
+INFO   - PointMatchAlgorithm::populateImageArray
+INFO   - PointMatchAlgorithm::removePixelsNearExistingPoints
+INFO   - PointMatchAlgorithm::loadImage
+INFO   - PointMatchAlgorithm::allocateMemory
+INFO   - PointMatchAlgorithm::populateSampleArray
+INFO   - PointMatchAlgorithm::computeConvolution
+INFO   - PointMatchAlgorithm::allocateMemory
+INFO   - PointMatchAlgorithm::conjugateMatrix
+INFO   - PointMatchAlgorithm::multiplyMatrices
+INFO   - PointMatchAlgorithm::releasePhaseArray
+INFO   - PointMatchAlgorithm::assembleLocalMaxima
+INFO   - PointMatchAlgorithm::releaseImageArray
+INFO   - PointMatchAlgorithm::releasePhaseArray
+INFO   - PointMatchAlgorithm::releaseImageArray
+INFO   - PointMatchAlgorithm::releasePhaseArray
+INFO   - PointMatchAlgorithm::releaseImageArray
+INFO   - GraphicsScene::createPoint identifier=Axes	0
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsScene::removeTemporaryPointIfExists
+INFO   - GraphicsLinesForCurves::removeTemporaryPointIfExists
+INFO   - GraphicsLinesForCurve::removeTemporaryPointIfExists
+INFO   - GraphicsScene::addTemporaryPoint identifer=Axes	0
+INFO   - GraphicsLinesForCurves::addPoint curve=Axes identifier=Axes	0 ordinal=-1 pos=(0, 0)
+INFO   - GraphicsLinesForCurve::addPoint curve=Axes identifier=Axes	0 ordinal=-1 pos=(0, 0) newPointCount=3
+INFO   - MainWindow::slotEditMenu
+INFO   - MainWindow::slotEditMenu
+INFO   - MainWindow::slotSettingsExportFormat
+INFO   - DlgSettingsExportFormat::load
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - DlgSettingsExportFormat::slotFunctionsExtrapolateOutsideEndpoints
+INFO   - DlgSettingsExportFormat::goodIntervalFunctions text= good=false bottom=-inf top=inf
+INFO   - ExportFileFunctions::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - CallbackGatherXThetasAbstractBase::xThetaValuesRaw
+INFO   - ExportXThetaValuesMergedFunctions::xThetaValues
+INFO   - ExportFileFunctions::exportOnePerLineXThetaValuesMerged
+INFO   - ExportFileFunctions::initializeYRadiusValues
+INFO   - ExportFileFunctions::loadYRadiusValues
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileFunctions::loadYRadiusValuesForCurveRaw
+INFO   - ExportFileFunctions::outputXThetaYRadiusValues
+INFO   - ExportFileAbstractBase::destroy2DArray
+INFO   - ExportFileRelations::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileRelations::exportOnePerLineXThetaValuesMerged
+INFO   - DlgSettingsExportFormat::slotOverrideCsvTsv
+INFO   - DlgSettingsExportFormat::goodIntervalFunctions text= good=false bottom=-inf top=inf
+INFO   - ExportFileFunctions::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - CallbackGatherXThetasAbstractBase::xThetaValuesRaw
+INFO   - ExportXThetaValuesMergedFunctions::xThetaValues
+INFO   - ExportFileFunctions::exportOnePerLineXThetaValuesMerged
+INFO   - ExportFileFunctions::initializeYRadiusValues
+INFO   - ExportFileFunctions::loadYRadiusValues
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileFunctions::loadYRadiusValuesForCurveRaw
+INFO   - ExportFileFunctions::outputXThetaYRadiusValues
+INFO   - ExportFileAbstractBase::destroy2DArray
+INFO   - ExportFileRelations::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileRelations::exportOnePerLineXThetaValuesMerged
+INFO   - DlgSettingsExportFormat::slotXLabel
+INFO   - DlgSettingsExportFormat::goodIntervalFunctions text= good=false bottom=-inf top=inf
+INFO   - ExportFileFunctions::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - CallbackGatherXThetasAbstractBase::xThetaValuesRaw
+INFO   - ExportXThetaValuesMergedFunctions::xThetaValues
+INFO   - ExportFileFunctions::exportOnePerLineXThetaValuesMerged
+INFO   - ExportFileFunctions::initializeYRadiusValues
+INFO   - ExportFileFunctions::loadYRadiusValues
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileFunctions::loadYRadiusValuesForCurveRaw
+INFO   - ExportFileFunctions::outputXThetaYRadiusValues
+INFO   - ExportFileAbstractBase::destroy2DArray
+INFO   - ExportFileRelations::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileRelations::exportOnePerLineXThetaValuesMerged
+INFO   - DlgSettingsExportFormat::slotFunctionsPointsEvenlySpacedInterval
+INFO   - DlgSettingsExportFormat::goodIntervalFunctions text=10 good=true bottom=-inf top=inf
+INFO   - DlgSettingsExportFormat::goodIntervalFunctions text=10 good=true bottom=-inf top=inf
+INFO   - DlgSettingsExportFormat::goodIntervalRelations text= good=false bottom=-inf top=inf
+INFO   - ExportFileFunctions::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - CallbackGatherXThetasAbstractBase::xThetaValuesRaw
+INFO   - ExportXThetaValuesMergedFunctions::xThetaValues
+INFO   - ExportFileFunctions::exportOnePerLineXThetaValuesMerged
+INFO   - ExportFileFunctions::initializeYRadiusValues
+INFO   - ExportFileFunctions::loadYRadiusValues
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileFunctions::loadYRadiusValuesForCurveRaw
+INFO   - ExportFileFunctions::outputXThetaYRadiusValues
+INFO   - ExportFileAbstractBase::destroy2DArray
+INFO   - ExportFileRelations::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileRelations::exportOnePerLineXThetaValuesMerged
+INFO   - DlgSettingsExportFormat::slotRelationsPointsEvenlySpacedInterval
+INFO   - DlgSettingsExportFormat::goodIntervalFunctions text=10 good=true bottom=-inf top=inf
+INFO   - DlgSettingsExportFormat::goodIntervalRelations text=10 good=true bottom=-inf top=inf
+INFO   - ExportFileFunctions::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - CallbackGatherXThetasAbstractBase::xThetaValuesRaw
+INFO   - ExportXThetaValuesMergedFunctions::xThetaValues
+INFO   - ExportFileFunctions::exportOnePerLineXThetaValuesMerged
+INFO   - ExportFileFunctions::initializeYRadiusValues
+INFO   - ExportFileFunctions::loadYRadiusValues
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileFunctions::loadYRadiusValuesForCurveRaw
+INFO   - ExportFileFunctions::outputXThetaYRadiusValues
+INFO   - ExportFileAbstractBase::destroy2DArray
+INFO   - ExportFileRelations::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileRelations::exportOnePerLineXThetaValuesMerged
+INFO   - DlgSettingsExportFormat::initializeIntervalConstraints
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - DlgSettingsExportFormat::goodIntervalFunctions text=10 good=true bottom=-inf top=inf
+INFO   - DlgSettingsExportFormat::goodIntervalRelations text=10 good=true bottom=-inf top=inf
+INFO   - ExportFileFunctions::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - CallbackGatherXThetasAbstractBase::xThetaValuesRaw
+INFO   - ExportXThetaValuesMergedFunctions::xThetaValues
+INFO   - ExportFileFunctions::exportOnePerLineXThetaValuesMerged
+INFO   - ExportFileFunctions::initializeYRadiusValues
+INFO   - ExportFileFunctions::loadYRadiusValues
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileFunctions::loadYRadiusValuesForCurveRaw
+INFO   - ExportFileFunctions::outputXThetaYRadiusValues
+INFO   - ExportFileAbstractBase::destroy2DArray
+INFO   - ExportFileRelations::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileRelations::exportOnePerLineXThetaValuesMerged
+INFO   - DlgSettingsExportFormat::slotDelimitersCommas
+INFO   - DlgSettingsExportFormat::goodIntervalFunctions text=10 good=true bottom=0.0272143 top=inf
+INFO   - DlgSettingsExportFormat::goodIntervalRelations text=10 good=true bottom=-inf top=inf
+INFO   - ExportFileFunctions::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - CallbackGatherXThetasAbstractBase::xThetaValuesRaw
+INFO   - ExportXThetaValuesMergedFunctions::xThetaValues
+INFO   - ExportFileFunctions::exportOnePerLineXThetaValuesMerged
+INFO   - ExportFileFunctions::initializeYRadiusValues
+INFO   - ExportFileFunctions::loadYRadiusValues
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileFunctions::loadYRadiusValuesForCurveRaw
+INFO   - ExportFileFunctions::outputXThetaYRadiusValues
+INFO   - ExportFileAbstractBase::destroy2DArray
+INFO   - ExportFileRelations::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileRelations::exportOnePerLineXThetaValuesMerged
+INFO   - DlgSettingsExportFormat::slotHeaderGnuplot
+INFO   - DlgSettingsExportFormat::goodIntervalFunctions text=10 good=true bottom=0.0272143 top=inf
+INFO   - DlgSettingsExportFormat::goodIntervalRelations text=10 good=true bottom=-inf top=inf
+INFO   - ExportFileFunctions::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - CallbackGatherXThetasAbstractBase::xThetaValuesRaw
+INFO   - ExportXThetaValuesMergedFunctions::xThetaValues
+INFO   - ExportFileFunctions::exportOnePerLineXThetaValuesMerged
+INFO   - ExportFileFunctions::initializeYRadiusValues
+INFO   - ExportFileFunctions::loadYRadiusValues
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileFunctions::loadYRadiusValuesForCurveRaw
+INFO   - ExportFileFunctions::outputXThetaYRadiusValues
+INFO   - ExportFileAbstractBase::destroy2DArray
+INFO   - ExportFileRelations::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileRelations::exportOnePerLineXThetaValuesMerged
+INFO   - DlgSettingsExportFormat::slotHeaderSimple
+INFO   - DlgSettingsExportFormat::goodIntervalFunctions text=10 good=true bottom=0.0272143 top=inf
+INFO   - DlgSettingsExportFormat::goodIntervalRelations text=10 good=true bottom=-inf top=inf
+INFO   - ExportFileFunctions::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - CallbackGatherXThetasAbstractBase::xThetaValuesRaw
+INFO   - ExportXThetaValuesMergedFunctions::xThetaValues
+INFO   - ExportFileFunctions::exportOnePerLineXThetaValuesMerged
+INFO   - ExportFileFunctions::initializeYRadiusValues
+INFO   - ExportFileFunctions::loadYRadiusValues
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileFunctions::loadYRadiusValuesForCurveRaw
+INFO   - ExportFileFunctions::outputXThetaYRadiusValues
+INFO   - ExportFileAbstractBase::destroy2DArray
+INFO   - ExportFileRelations::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileRelations::exportOnePerLineXThetaValuesMerged
+INFO   - DlgSettingsAbstractBase::slotOk
+INFO   - DlgSettingsExportFormat::handleOk
+INFO   - CmdAbstract::CmdAbstract
+INFO   - CmdSettingsExportFormat::CmdSettingsExportFormat
+INFO   - CmdAbstract::redo
+INFO   - Point::identifierIndex identifierIndex=9
+INFO   - CmdSettingsExportFormat::cmdRedo
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - DocumentHashGenerator::generator result=¶¨·õ2uAÐš>ˆ¿
+INFO   - CmdAbstract::saveOrCheckPreCommandDocumentStateHash stateHash=¶¨·õ2uAÐš>ˆ¿
+INFO   - MainWindow::updateSettingsExportFormat
+INFO   - Document::setModelExport
+INFO   - CoordSystemContext::setModelExport
+INFO   - MainWindow::updateAfterCommand
+INFO   - MainWindow::updateAfterCommandStatusBarCoords
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Transformation::calculateTransformFromLinearCartesianPoints
+INFO   - Transformation::updateTransformFromMatrices matrixScreen=
+                     710.595        1012.98        1007.94
+                     675.318        352.778        680.357
+                           1              1              1  matrixGraphRaw=
+                           0              1              1
+                           0              1              0
+                           1              1              1  matrixGraphLinear=
+                           0              1              1
+                           0              1              0
+                           1              1              1
+ originalScreen0=(710.595, 675.318)
+ originalScreen1=(1012.98, 352.778)
+ originalScreen2=(1007.94, 680.357)
+ roundTripScreen0=(710.595, 675.318)
+ roundTripScreen1=(1012.98, 352.778)
+ roundTripScreen2=(1007.94, 680.357)
+
+INFO   - DocumentModelColorFilter::DocumentModelColorFilter
+INFO   - BackgroundStateContext::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::setCurveSelected curve=Curve1
+INFO   - BackgroundStateCurve::processImageFromSavedInputs
+INFO   - DocumentModelColorFilter::high curve=Curve1 curves=Axes,Curve1
+INFO   - DocumentModelColorFilter::low curve=Curve1 curves=Axes,Curve1
+INFO   - GridRemoval::remove transformationIsDefined=true removeDefinedGridLines=false
+INFO   - BackgroundStateAbstractBase::setProcessedPixmap map=(1371x1530)
+INFO   - BackgroundStateNone::setCurveSelected
+INFO   - BackgroundStateOriginal::setCurveSelected
+INFO   - BackgroundStateUnloaded::setCurveSelected
+INFO   - MainWindow::updateGridLines
+INFO   - GraphicsScene::updateAfterCommand
+INFO   - GraphicsLinesForCurves::updateHighlightOpacity highlightOpacity=0.35
+INFO   - GraphicsLinesForCurve::updateCurveStyle curve=Axes highlightOpacity=0.35
+INFO   - GraphicsLinesForCurve::updateCurveStyle curve=Curve1 highlightOpacity=0.35
+INFO   - GraphicsScene::updateCurves
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - GraphicsLinesForCurves::addRemoveCurves curveCount=2
+INFO   - GraphicsScene::updatePointMembership
+INFO   - GraphicsLinesForCurves::lineMembershipReset
+INFO   - GraphicsLinesForCurve::lineMembershipReset curve=Axes
+INFO   - GraphicsLinesForCurve::lineMembershipReset curve=Curve1
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - GraphicsScene::createPoint identifier=Axes	point	5
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - GraphicsPointPolygon::GraphicsPointPolygon
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - GraphicsLinesForCurves::lineMembershipPurge
+INFO   - GraphicsLinesForCurve::lineMembershipPurge curve=Axes
+INFO   - GraphicsLinesForCurve::renumberOrdinals
+INFO   - GraphicsLinesForCurve::updateGraphicsLinesToMatchGraphicsPoints numberPoints=3 ordinalRenumbering=true
+INFO   - GraphicsLinesForCurve::lineMembershipPurge curve=Curve1
+INFO   - GraphicsLinesForCurve::updateGraphicsLinesToMatchGraphicsPoints numberPoints=3 ordinalRenumbering=false
+INFO   - GraphicsLinesForCurve::drawLinesSmooth curve=Curve1
+INFO   - DigitizeStatePointMatch::updateAfterPointAddition
+INFO   - MainWindow::updateControls selectedItems=0
+INFO   - CmdStackShadow::canRedo
+INFO   - MainWindow::updateChecklistGuide
+INFO   - ChecklistGuide::update
+INFO   - ChecklistGuideBrowser::update
+INFO   - ChecklistGuideBrowser::repopulateCheckedTags
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - ChecklistGuideBrowser::refresh
+INFO   - ChecklistGuideBrowser::processAhrefs
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::processCheckboxes
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::processDivs
+INFO   - ChecklistGuideBrowser::divShow anchor=
+INFO   - ChecklistGuideBrowser::divHide anchor=BACKGROUND
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS1
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS2
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS3
+INFO   - ChecklistGuideBrowser::divHide anchor=EXPORT
+INFO   - MainWindow::updateFittingWindow
+INFO   - FittingWindow::update
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - FittingWindow::resizeTable
+INFO   - MainWindow::slotFittingWindowCurveFit order=9
+INFO   - MainWindow::updateGeometryWindow
+INFO   - GeometryWindow::update
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - GeometryWindow::resizeTable
+INFO   - CoordSystemContext::printStream
+INFO   - DocumentScrub::DocumentScrub
+INFO   - DocumentScrub::check
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - Document::iterateThroughCurvePointsAxes
+INFO   - CoordSystemContext::iterateThroughCurvePointsAxes
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - DocumentHashGenerator::generator result=¶¨·õ2uAÐš>ˆ¿
+INFO   - CmdAbstract::saveOrCheckPostCommandDocumentStateHash stateHash=¶¨·õ2uAÐš>ˆ¿
+INFO   - Point::identifierIndex identifierIndex=9
+INFO   - CmdAbstract::redo identifierIndex=9->9
+INFO   - CmdStackShadow::canRedo
+INFO   - MainWindow::slotFileExport
+INFO   - MainWindow::fileExport curDir=/home/sgmil/Programs/Analyze Data/Targets fileName=/home/sgmil/Programs/Analyze Data/Targets/testThanks.csv
+INFO   - ExportToFile::exportToFile
+INFO   - ExportFileFunctions::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - Document::iterateThroughCurvesPointsGraphs
+INFO   - CoordSystemContext::iterateThroughCurvesPointsGraphs
+INFO   - CallbackGatherXThetasAbstractBase::xThetaValuesRaw
+INFO   - ExportXThetaValuesMergedFunctions::xThetaValues
+INFO   - ExportFileFunctions::exportOnePerLineXThetaValuesMerged
+INFO   - ExportFileFunctions::initializeYRadiusValues
+INFO   - ExportFileFunctions::loadYRadiusValues
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileFunctions::loadYRadiusValuesForCurveRaw
+INFO   - ExportFileFunctions::outputXThetaYRadiusValues
+INFO   - ExportFileAbstractBase::destroy2DArray
+INFO   - ExportFileRelations::exportToFile
+INFO   - Document::curvesGraphsNames
+INFO   - CoordSystemContext::curvesGraphsNames
+INFO   - ExportFileAbstractBase::curvesToInclude
+INFO   - Document::curveForCurveName
+INFO   - CoordSystemContext::curveForCurveName
+INFO   - ExportFileRelations::exportOnePerLineXThetaValuesMerged
+INFO   - MainWindow::updateChecklistGuide
+INFO   - ChecklistGuide::update
+INFO   - ChecklistGuideBrowser::update
+INFO   - ChecklistGuideBrowser::repopulateCheckedTags
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - Document::curveAxes
+INFO   - CoordSystemContext::curveAxes
+INFO   - ChecklistGuideBrowser::refresh
+INFO   - ChecklistGuideBrowser::processAhrefs
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::bindToDocument
+INFO   - ChecklistGuideBrowser::processCheckboxes
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::check
+INFO   - ChecklistGuideBrowser::processDivs
+INFO   - ChecklistGuideBrowser::divShow anchor=
+INFO   - ChecklistGuideBrowser::divHide anchor=BACKGROUND
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS1
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS2
+INFO   - ChecklistGuideBrowser::divHide anchor=AXIS3
+INFO   - ChecklistGuideBrowser::divHide anchor=EXPORT
+INFO   - MainWindow::slotFileSave
+INFO   - MainWindow::slotFileSaveAs
+INFO   - CoordSystemContext::~CoordSystemContext
+INFO   - CmdStackShadow::canRedo
+INFO   - MainWindow::slotCleanChanged
+INFO   - DlgSettingsAxesChecker::~DlgSettingsAxesChecker
+INFO   - DlgSettingsAbstractBase::~DlgSettingsAbstractBase name=DlgSettingsAxesChecker
+INFO   - DlgSettingsColorFilter::~DlgSettingsColorFilter
+INFO   - DlgSettingsAbstractBase::~DlgSettingsAbstractBase name=DlgSettingsColorFilter
+INFO   - DlgSettingsCoords::~DlgSettingsCoords
+INFO   - DlgSettingsAbstractBase::~DlgSettingsAbstractBase name=DlgSettingsCoords
+INFO   - DlgSettingsCurveList::~DlgSettingsCurveList
+INFO   - DlgSettingsAbstractBase::~DlgSettingsAbstractBase name=DlgSettingsCurveList
+INFO   - DlgSettingsCurveProperties::~DlgSettingsCurveProperties
+INFO   - DlgSettingsAbstractBase::~DlgSettingsAbstractBase name=DlgSettingsCurveProperties
+INFO   - DlgSettingsDigitizeCurve::~DlgSettingsDigitizeCurve
+INFO   - DlgSettingsAbstractBase::~DlgSettingsAbstractBase name=DlgSettingsDigitizeCurve
+INFO   - DlgSettingsExportFormat::~DlgSettingsExportFormat
+INFO   - DlgSettingsAbstractBase::~DlgSettingsAbstractBase name=DlgSettingsExportFormat
+INFO   - DlgSettingsGeneral::~DlgSettingsGeneral
+INFO   - DlgSettingsAbstractBase::~DlgSettingsAbstractBase name=DlgSettingsGeneral
+INFO   - DlgSettingsGridDisplay::~DlgSettingsGridDisplay
+INFO   - DlgSettingsAbstractBase::~DlgSettingsAbstractBase name=DlgSettingsGridDisplay
+INFO   - DlgSettingsGridRemoval::~DlgSettingsGridRemoval
+INFO   - DlgSettingsAbstractBase::~DlgSettingsAbstractBase name=DlgSettingsGridRemoval
+INFO   - DlgSettingsMainWindow::~DlgSettingsMainWindow
+INFO   - DlgSettingsAbstractBase::~DlgSettingsAbstractBase name=DlgSettingsMainWindow
+INFO   - DlgSettingsPointMatch::~DlgSettingsPointMatch
+INFO   - DlgSettingsAbstractBase::~DlgSettingsAbstractBase name=DlgSettingsPointMatch
+INFO   - DlgSettingsSegments::~DlgSettingsSegments
+INFO   - DlgSettingsAbstractBase::~DlgSettingsAbstractBase name=DlgSettingsSegments

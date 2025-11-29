@@ -1,0 +1,26 @@
+Shooting distance (yd):   100
+
+PER-GROUP STATS
+----------------
+Group:            50.csv
+  Points:         5
+  Center (Xc,Yc): (-0.006424, 2.108754)
+  Mean radius:    1.000323
+  Avg |X-Xc|:     0.538873
+  Avg |Y-Yc|:     0.740935
+
+Group:            51.csv
+  Points:         3
+  Center (Xc,Yc): (-1.711903, -2.717053)
+  Mean radius:    0.411828
+  Avg |X-Xc|:     0.256258
+  Avg |Y-Yc|:     0.273504
+
+OVERALL STATS (all points combined)
+-----------------------------------
+Total points:     8
+Center (Xc,Yc):   (-0.645979, 0.299076)
+Mean radius:      2.523897  (at 100 yards)
+Mean radius MOA:  2.4101
+
+Plot saved:       T3.png
